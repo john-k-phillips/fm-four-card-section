@@ -3,13 +3,18 @@
     h1 {
         margin-top: 10vh;
         font-weight: 300;
+        font-size: clamp(1.5em, 2.5vw, 3em);
     }
     h2 {
-        color: $clr-very-dark-blue
+        color: $clr-very-dark-blue;
+        font-size: clamp(1.5em, 2.5vw, 3em);
     }
     p {
         color: $clr-grayish-blue;
+        margin: auto;
         margin-top: 1em;
-        margin-bottom: 3em;
+        margin-bottom: 5em;
+        max-width: 650px;
+        font-size: clamp(1em, 2.5vw, 1.2em);
     }
 }
