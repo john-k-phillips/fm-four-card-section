@@ -21,8 +21,8 @@
         position: absolute;
         top: 0px;
         left: 0px;
-        border-top-left-radius: 0.2em;
-        border-top-right-radius: 0.2em;
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
     }
     h3 {
         color: $clr-very-dark-blue;
@@ -42,6 +42,12 @@
     }
 }
 
+.desktop-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 .cyan {
     background-color: $clr-cyan;
 }
@@ -53,4 +59,23 @@
 }
 .blue {
     background-color: $clr-blue;
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .article-card {
+        width: 400px;
+        padding: 3em;
+        margin: auto;
+    }
+    .content-flex {
+        flex-direction: row;
+        gap: 2em;
+    }
+    .desktop-wrap {
+        gap: 2em;
+    }
 }

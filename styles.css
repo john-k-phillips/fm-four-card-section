@@ -52,8 +52,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 0.2em;
-  border-top-right-radius: 0.2em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
 }
 
 .article-card h3 {
@@ -104,6 +104,24 @@
 
 .blue {
   background-color: #549ef2;
+}
+
+@media screen and (min-width: 1440px) {
+  .article-card {
+    width: 400px;
+    padding: 3em;
+    margin: auto;
+  }
+  .content-flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 2em;
+  }
+  .desktop-wrap {
+    gap: 2em;
+  }
 }
 
 *, *::after, * ::before {
