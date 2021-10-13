@@ -1,0 +1,55 @@
+.content-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 80%;
+}
+
+.article-card {
+    background-color: #FFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: left;
+    position: relative;
+    padding: 2em;
+    border-radius: 0.5em;
+
+    // CARD CONTENT
+    .top-bar {
+        width: 100%;
+        height: 4px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-top-left-radius: 0.2em;
+        border-top-right-radius: 0.2em;
+    }
+    h3 {
+        color: $clr-very-dark-blue;
+        font-size: 1.4em;
+        margin-bottom: 0.2em;
+    }
+    p {
+        font-size: 0.9em;
+        color: $clr-grayish-blue;
+        margin-bottom: 1em;
+    }
+    .image-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 2em;
+    }
+}
+
+.cyan {
+    background-color: $clr-cyan;
+}
+.red {
+    background-color: $clr-red;
+}
+.orange {
+    background-color: $clr-orange;
+}
+.blue {
+    background-color: $clr-blue;
+}
