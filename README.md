@@ -1,26 +1,26 @@
 <!-- USE THIS TEMPLATE FOR FUTURE FRONTEND MENTOR PROJECTS, CLEAN CONSISTENT README'S FOR ALL PROJECTS - PAST SELF. -->
 
 <!-- REPLACE HREFS & PROJECT NAMES -->
-<h1>Stats Preview Card Component</h1>
+<h1>Four Card Feature section</h1>
 <p>
   This is a solution to the 
   
-  [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
+  [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
   
   Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 </p>
 
 <!-- REPLACE HREFS -->
-<a href="https://www.frontendmentor.io/solutions/stats-preview-card-with-sass-WXYJynHTX" target="_blank">
+<a href="https://www.frontendmentor.io/solutions/four-card-section-with-sass-HTxRZK5NF" target="_blank">
   <img src=https://img.shields.io/badge/solution-3e54a3?&style=for-the-badge&logo=frontendmentor&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
-<a href="https://romantic-goodall-f6dbba.netlify.app/" target="_blank">
+<a href="https://peaceful-cori-1d9ac2.netlify.app/" target="_blank">
   <img src=https://img.shields.io/badge/live%20demo-lightgreen?&style=for-the-badge&logo=html5&logoColor=333 alt=live-link style="margin-bottom: 5px;" />
 </a>
 
 <!-- REPLACE TASKS -->
 <h2>Overview</h2>
-Your challenge is to build out this card component and get it looking as close to the design as possible.
+Your challenge is to build out this feature section and get it looking as close to the design as possible.
 
 Your users should be able to:
 - [x] View the optimal layout depending on their device's screen size
@@ -32,12 +32,12 @@ Your users should be able to:
 <h2>Satisfaction</h2>
 <h3>The Good</h3>
   <ul>
-    <li>Color overlay over the image.</li>
-    <li>Use of flexbox for stats.</li>
+    <li>The flexbox flow from mobile to desktop.</li>
+    <li>The use of absolute/relative positions.</li>
   </ul>
 <h3>The Bad</h3>
   <ul>
-    <li>Width expands too much stretching the image past specified size.</li>
+    <li>The flow of cards is interrupted by a container, keeping it all one flow would be nice.</li>
   </ul>
 
 <!-- UPDATE ENTIRE SECTION -->
@@ -52,11 +52,12 @@ Your users should be able to:
 </p>
 <h3>What I Learnt</h3>
   <p>
-    I learnt how to effectivly use flexbox and having multiple color layers over an image.
+    I learnt how to effectivly use flexbox, flex-wrap and other useful flex based features to get the look I wanted.
+    Clamp was my best friend in regards to typography and this resulted in a much smoother transition from mobile to desktop.
   </p>
 <h3>Continued Development</h3>
   <p>
-    I would like to redesign the entierly, I would change the typography sizing and the card width.
+    I am happy with the development of this project, however; perhaps changing the tablet card flow would be nice.
   </p>
   
 <!--  Thank you for taking the time to review my projects!  -->
