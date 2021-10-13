@@ -57,7 +57,7 @@ Your users should be able to:
   </p>
 <h3>Continued Development</h3>
   <p>
-    I am happy with the development of this project, however; perhaps changing the tablet card flow would be nice.
+    I am happy with the development of this project, however; perhaps changing the tablet card flow would be a good idea.
   </p>
   
 <!--  Thank you for taking the time to review my projects!  -->
