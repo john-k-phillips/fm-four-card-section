@@ -12,6 +12,11 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     background-color: $clr-very-light-gray;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 
